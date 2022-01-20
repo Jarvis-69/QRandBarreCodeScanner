@@ -1,0 +1,106 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.aid.qrandbarcodescanner"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml:5:5-64
+11-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml:5:22-62
+12
+13    <uses-feature android:name="android.hardware.camera" />
+13-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml:6:5-59
+13-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml:6:19-57
+14    <uses-feature android:name="android.hardware.camera.autofocus" />
+14-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml:7:5-69
+14-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml:7:19-67
+15    <uses-feature
+15-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\paulb\.gradle\caches\transforms-2\files-2.1\3fddad1dd3215d66041a501680cb95d1\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:27:5-29:36
+16        android:name="android.hardware.camera.front"
+16-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\paulb\.gradle\caches\transforms-2\files-2.1\3fddad1dd3215d66041a501680cb95d1\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:28:9-53
+17        android:required="false" />
+17-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\paulb\.gradle\caches\transforms-2\files-2.1\3fddad1dd3215d66041a501680cb95d1\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:29:9-33
+18    <uses-feature
+18-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\paulb\.gradle\caches\transforms-2\files-2.1\3fddad1dd3215d66041a501680cb95d1\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:35:5-37:36
+19        android:name="android.hardware.camera.flash"
+19-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\paulb\.gradle\caches\transforms-2\files-2.1\3fddad1dd3215d66041a501680cb95d1\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:36:9-53
+20        android:required="false" />
+20-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\paulb\.gradle\caches\transforms-2\files-2.1\3fddad1dd3215d66041a501680cb95d1\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:37:9-33
+21    <uses-feature
+21-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\paulb\.gradle\caches\transforms-2\files-2.1\3fddad1dd3215d66041a501680cb95d1\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:38:5-40:36
+22        android:name="android.hardware.screen.landscape"
+22-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\paulb\.gradle\caches\transforms-2\files-2.1\3fddad1dd3215d66041a501680cb95d1\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:39:9-57
+23        android:required="false" />
+23-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\paulb\.gradle\caches\transforms-2\files-2.1\3fddad1dd3215d66041a501680cb95d1\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:40:9-33
+24    <uses-feature
+24-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\paulb\.gradle\caches\transforms-2\files-2.1\3fddad1dd3215d66041a501680cb95d1\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:41:5-43:36
+25        android:name="android.hardware.wifi"
+25-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\paulb\.gradle\caches\transforms-2\files-2.1\3fddad1dd3215d66041a501680cb95d1\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:42:9-45
+26        android:required="false" />
+26-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\paulb\.gradle\caches\transforms-2\files-2.1\3fddad1dd3215d66041a501680cb95d1\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:43:9-33
+27
+28    <application
+28-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml:9:5-32:19
+29        android:allowBackup="true"
+29-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml:10:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.1.0] C:\Users\paulb\.gradle\caches\transforms-2\files-2.1\76f2b6439d16df60df3177021482ee5a\core-1.1.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_logo"
+32-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml:11:9-39
+33        android:label="@string/app_name"
+33-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml:12:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml:13:9-54
+35        android:supportsRtl="true"
+35-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml:14:9-35
+36        android:theme="@style/AppTheme" >
+36-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml:15:9-40
+37        <activity android:name="com.aid.qrandbarcodescanner.MainActivity" >
+37-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml:16:9-22:20
+37-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml:16:19-47
+38            <intent-filter>
+38-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml:17:13-21:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml:18:17-69
+39-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml:18:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml:20:17-77
+41-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml:20:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml:24:9-30:20
+45            android:name="com.aid.qrandbarcodescanner.CaptureAct"
+45-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml:24:19-45
+46            android:screenOrientation="fullSensor"
+46-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml:26:13-51
+47            android:stateNotNeeded="true"
+47-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml:27:13-42
+48            android:windowSoftInputMode="stateAlwaysHidden" >
+48-->C:\Users\paulb\AndroidStudioProjects\QRandBarcodescanner\app\src\main\AndroidManifest.xml:28:13-60
+49        </activity>
+50        <activity
+50-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\paulb\.gradle\caches\transforms-2\files-2.1\3fddad1dd3215d66041a501680cb95d1\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:46:9-52:63
+51            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+51-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\paulb\.gradle\caches\transforms-2\files-2.1\3fddad1dd3215d66041a501680cb95d1\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:47:13-74
+52            android:clearTaskOnLaunch="true"
+52-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\paulb\.gradle\caches\transforms-2\files-2.1\3fddad1dd3215d66041a501680cb95d1\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:48:13-45
+53            android:screenOrientation="sensorLandscape"
+53-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\paulb\.gradle\caches\transforms-2\files-2.1\3fddad1dd3215d66041a501680cb95d1\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:49:13-56
+54            android:stateNotNeeded="true"
+54-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\paulb\.gradle\caches\transforms-2\files-2.1\3fddad1dd3215d66041a501680cb95d1\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:50:13-42
+55            android:theme="@style/zxing_CaptureTheme"
+55-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\paulb\.gradle\caches\transforms-2\files-2.1\3fddad1dd3215d66041a501680cb95d1\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:51:13-54
+56            android:windowSoftInputMode="stateAlwaysHidden" />
+56-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\paulb\.gradle\caches\transforms-2\files-2.1\3fddad1dd3215d66041a501680cb95d1\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:52:13-60
+57    </application>
+58
+59</manifest>
